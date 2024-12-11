@@ -50,10 +50,12 @@ code shows how to use the function `get_vessel_info` to search for the
 vessel with the imo = 8733445.
 
 ``` {r}
-vessel_example <- get_vessel_info(query = "imo = '8733445'", 
-                search_type = "advanced", 
-                dataset = "all", 
-                key = key)
+vessel_example <- get_vessel_info(
+#   query = "flag = 'NLD'", 
+#   search_type = "advanced", 
+#   dataset = "all",
+#   key = key
+# )
 
 # Display the content of the dataset
 colnames(vessel_example)
@@ -73,7 +75,8 @@ vessel_id <- get_vessel_info(query = 224224000, search_type = "basic", key = key
 
 event_example <- get_event(event_type = "port_visit",
           vessel = vessel_id,
-          confidences = "4",
+          start_date = "2019-01-01",
+          end_date = "2022-01-01",
           key = key)
 
 colnames(event_example)
