@@ -64,12 +64,4 @@ The [original thesis PDF](Master%20Thesis%20BSE.pdf) contains the full instituti
 
 **Reproducibility note:** This repository contains research code and outputs but is **not a fully automated replication package**. Reproducing the complete workflow requires access to the underlying source datasets, appropriate GFW API credentials, and compatible R, Python, and Stata environments. API interfaces and software versions may have changed since the 2024 project.
 
-## Authors
-
-**Ignacio Balaguer · James Connolly · Luca Raffaele Orsini · Daniel Schuhmacher · Alejandro Zimmerman**
-
-**Supervisor:** Rodrigo Carril  
-**Institution:** Barcelona School of Economics  
-**Date:** 7 June 2024
-
 Please refer to the [full thesis](Master%20Thesis%20BSE.pdf) for the detailed methodology, references, and interpretation of results.
