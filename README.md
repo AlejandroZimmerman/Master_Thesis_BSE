@@ -49,6 +49,10 @@ The estimated model is then used to compare predicted landing choices under the 
 
 These are **model-based counterfactual estimates**, conditional on the choice-model specification and sample selection. They should not be interpreted as estimates from a randomized experiment or a quasi-experimental difference-in-differences design. The utility-based surplus measure is not a direct monetary measure of profits.
 
+## Global Fishing Watch API documentation
+
+The original GFW API notes and historical R `gfwr` examples have been preserved in [`docs/GFW_API_notes.md`](docs/GFW_API_notes.md). The examples reflect the API interfaces used during the project and may need updating before reuse.
+
 ## Repository contents
 
 ```text
