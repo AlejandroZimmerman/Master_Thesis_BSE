@@ -19,7 +19,7 @@ The final sample follows **2,979 vessels from 10 nationalities over 2018–2022*
 | Source | Data used |
 | --- | --- |
 | [Global Fishing Watch (GFW)](https://globalfishingwatch.org/) | Vessel characteristics, fishing events, port visits, locations, and fishing-effort measures, retrieved through its APIs |
-| UK [Marine Management Organisation (MMO)](https://www.gov.uk/government/organisations/marine-management-organisation) | Landings information and fish prices in UK ports |
+| [UK Marine Management Organisation (MMO)](https://www.gov.uk/government/organisations/marine-management-organisation) | Landings information and fish prices in UK ports |
 | [EUMOFA](https://www.eumofa.eu/) | Fish and seafood price information for EU countries |
 | [Eurostat](https://ec.europa.eu/eurostat) | Monthly foreign-tourism overnight stays used as a demand shifter in the price endogeneity analysis |
 
